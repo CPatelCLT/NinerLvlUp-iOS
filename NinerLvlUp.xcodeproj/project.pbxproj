@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4611AAF31D822795008DAE0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611AAF21D822795008DAE0F /* AppDelegate.swift */; };
+		4611AAF61D822796008DAE0F /* NinerLvlUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4611AAF41D822796008DAE0F /* NinerLvlUp.xcdatamodeld */; };
+		4611AAF81D822796008DAE0F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611AAF71D822796008DAE0F /* MasterViewController.swift */; };
+		4611AAFA1D822796008DAE0F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611AAF91D822796008DAE0F /* DetailViewController.swift */; };
+		4611AAFD1D822796008DAE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4611AAFB1D822796008DAE0F /* Main.storyboard */; };
+		4611AAFF1D822796008DAE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4611AAFE1D822796008DAE0F /* Assets.xcassets */; };
+		4611AB021D822796008DAE0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4611AB001D822796008DAE0F /* LaunchScreen.storyboard */; };
+		4611AB0D1D822796008DAE0F /* NinerLvlUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611AB0C1D822796008DAE0F /* NinerLvlUpTests.swift */; };
+		4611AB181D822796008DAE0F /* NinerLvlUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611AB171D822796008DAE0F /* NinerLvlUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4611AB091D822796008DAE0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4611AAE71D822795008DAE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4611AAEE1D822795008DAE0F;
+			remoteInfo = NinerLvlUp;
+		};
+		4611AB141D822796008DAE0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4611AAE71D822795008DAE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4611AAEE1D822795008DAE0F;
+			remoteInfo = NinerLvlUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4611AAEF1D822795008DAE0F /* NinerLvlUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinerLvlUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4611AAF21D822795008DAE0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4611AAF51D822796008DAE0F /* NinerLvlUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NinerLvlUp.xcdatamodel; sourceTree = "<group>"; };
+		4611AAF71D822796008DAE0F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4611AAF91D822796008DAE0F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4611AAFC1D822796008DAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4611AAFE1D822796008DAE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4611AB011D822796008DAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4611AB031D822796008DAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4611AB081D822796008DAE0F /* NinerLvlUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinerLvlUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4611AB0C1D822796008DAE0F /* NinerLvlUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinerLvlUpTests.swift; sourceTree = "<group>"; };
+		4611AB0E1D822796008DAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4611AB131D822796008DAE0F /* NinerLvlUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinerLvlUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4611AB171D822796008DAE0F /* NinerLvlUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinerLvlUpUITests.swift; sourceTree = "<group>"; };
+		4611AB191D822796008DAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4611AAEC1D822795008DAE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611AB051D822796008DAE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611AB101D822796008DAE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4611AAE61D822795008DAE0F = {
+			isa = PBXGroup;
+			children = (
+				4611AAF11D822795008DAE0F /* NinerLvlUp */,
+				4611AB0B1D822796008DAE0F /* NinerLvlUpTests */,
+				4611AB161D822796008DAE0F /* NinerLvlUpUITests */,
+				4611AAF01D822795008DAE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4611AAF01D822795008DAE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4611AAEF1D822795008DAE0F /* NinerLvlUp.app */,
+				4611AB081D822796008DAE0F /* NinerLvlUpTests.xctest */,
+				4611AB131D822796008DAE0F /* NinerLvlUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4611AAF11D822795008DAE0F /* NinerLvlUp */ = {
+			isa = PBXGroup;
+			children = (
+				4611AAF21D822795008DAE0F /* AppDelegate.swift */,
+				4611AAF71D822796008DAE0F /* MasterViewController.swift */,
+				4611AAF91D822796008DAE0F /* DetailViewController.swift */,
+				4611AAFB1D822796008DAE0F /* Main.storyboard */,
+				4611AAFE1D822796008DAE0F /* Assets.xcassets */,
+				4611AB001D822796008DAE0F /* LaunchScreen.storyboard */,
+				4611AB031D822796008DAE0F /* Info.plist */,
+				4611AAF41D822796008DAE0F /* NinerLvlUp.xcdatamodeld */,
+			);
+			path = NinerLvlUp;
+			sourceTree = "<group>";
+		};
+		4611AB0B1D822796008DAE0F /* NinerLvlUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				4611AB0C1D822796008DAE0F /* NinerLvlUpTests.swift */,
+				4611AB0E1D822796008DAE0F /* Info.plist */,
+			);
+			path = NinerLvlUpTests;
+			sourceTree = "<group>";
+		};
+		4611AB161D822796008DAE0F /* NinerLvlUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4611AB171D822796008DAE0F /* NinerLvlUpUITests.swift */,
+				4611AB191D822796008DAE0F /* Info.plist */,
+			);
+			path = NinerLvlUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4611AAEE1D822795008DAE0F /* NinerLvlUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4611AB1C1D822796008DAE0F /* Build configuration list for PBXNativeTarget "NinerLvlUp" */;
+			buildPhases = (
+				4611AAEB1D822795008DAE0F /* Sources */,
+				4611AAEC1D822795008DAE0F /* Frameworks */,
+				4611AAED1D822795008DAE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinerLvlUp;
+			productName = NinerLvlUp;
+			productReference = 4611AAEF1D822795008DAE0F /* NinerLvlUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4611AB071D822796008DAE0F /* NinerLvlUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4611AB1F1D822796008DAE0F /* Build configuration list for PBXNativeTarget "NinerLvlUpTests" */;
+			buildPhases = (
+				4611AB041D822796008DAE0F /* Sources */,
+				4611AB051D822796008DAE0F /* Frameworks */,
+				4611AB061D822796008DAE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4611AB0A1D822796008DAE0F /* PBXTargetDependency */,
+			);
+			name = NinerLvlUpTests;
+			productName = NinerLvlUpTests;
+			productReference = 4611AB081D822796008DAE0F /* NinerLvlUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4611AB121D822796008DAE0F /* NinerLvlUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4611AB221D822796008DAE0F /* Build configuration list for PBXNativeTarget "NinerLvlUpUITests" */;
+			buildPhases = (
+				4611AB0F1D822796008DAE0F /* Sources */,
+				4611AB101D822796008DAE0F /* Frameworks */,
+				4611AB111D822796008DAE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4611AB151D822796008DAE0F /* PBXTargetDependency */,
+			);
+			name = NinerLvlUpUITests;
+			productName = NinerLvlUpUITests;
+			productReference = 4611AB131D822796008DAE0F /* NinerLvlUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4611AAE71D822795008DAE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chirag Patel";
+				TargetAttributes = {
+					4611AAEE1D822795008DAE0F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4611AB071D822796008DAE0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4611AAEE1D822795008DAE0F;
+					};
+					4611AB121D822796008DAE0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4611AAEE1D822795008DAE0F;
+					};
+				};
+			};
+			buildConfigurationList = 4611AAEA1D822795008DAE0F /* Build configuration list for PBXProject "NinerLvlUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4611AAE61D822795008DAE0F;
+			productRefGroup = 4611AAF01D822795008DAE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4611AAEE1D822795008DAE0F /* NinerLvlUp */,
+				4611AB071D822796008DAE0F /* NinerLvlUpTests */,
+				4611AB121D822796008DAE0F /* NinerLvlUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4611AAED1D822795008DAE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4611AB021D822796008DAE0F /* LaunchScreen.storyboard in Resources */,
+				4611AAFF1D822796008DAE0F /* Assets.xcassets in Resources */,
+				4611AAFD1D822796008DAE0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611AB061D822796008DAE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611AB111D822796008DAE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4611AAEB1D822795008DAE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4611AAF61D822796008DAE0F /* NinerLvlUp.xcdatamodeld in Sources */,
+				4611AAF31D822795008DAE0F /* AppDelegate.swift in Sources */,
+				4611AAF81D822796008DAE0F /* MasterViewController.swift in Sources */,
+				4611AAFA1D822796008DAE0F /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611AB041D822796008DAE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4611AB0D1D822796008DAE0F /* NinerLvlUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4611AB0F1D822796008DAE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4611AB181D822796008DAE0F /* NinerLvlUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4611AB0A1D822796008DAE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4611AAEE1D822795008DAE0F /* NinerLvlUp */;
+			targetProxy = 4611AB091D822796008DAE0F /* PBXContainerItemProxy */;
+		};
+		4611AB151D822796008DAE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4611AAEE1D822795008DAE0F /* NinerLvlUp */;
+			targetProxy = 4611AB141D822796008DAE0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4611AAFB1D822796008DAE0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4611AAFC1D822796008DAE0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4611AB001D822796008DAE0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4611AB011D822796008DAE0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4611AB1A1D822796008DAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4611AB1B1D822796008DAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4611AB1D1D822796008DAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinerLvlUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.NinerLvlUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4611AB1E1D822796008DAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinerLvlUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.NinerLvlUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4611AB201D822796008DAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NinerLvlUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.NinerLvlUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinerLvlUp.app/NinerLvlUp";
+			};
+			name = Debug;
+		};
+		4611AB211D822796008DAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NinerLvlUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.NinerLvlUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinerLvlUp.app/NinerLvlUp";
+			};
+			name = Release;
+		};
+		4611AB231D822796008DAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NinerLvlUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.NinerLvlUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NinerLvlUp;
+			};
+			name = Debug;
+		};
+		4611AB241D822796008DAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NinerLvlUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.NinerLvlUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NinerLvlUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4611AAEA1D822795008DAE0F /* Build configuration list for PBXProject "NinerLvlUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4611AB1A1D822796008DAE0F /* Debug */,
+				4611AB1B1D822796008DAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4611AB1C1D822796008DAE0F /* Build configuration list for PBXNativeTarget "NinerLvlUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4611AB1D1D822796008DAE0F /* Debug */,
+				4611AB1E1D822796008DAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4611AB1F1D822796008DAE0F /* Build configuration list for PBXNativeTarget "NinerLvlUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4611AB201D822796008DAE0F /* Debug */,
+				4611AB211D822796008DAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4611AB221D822796008DAE0F /* Build configuration list for PBXNativeTarget "NinerLvlUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4611AB231D822796008DAE0F /* Debug */,
+				4611AB241D822796008DAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4611AAF41D822796008DAE0F /* NinerLvlUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4611AAF51D822796008DAE0F /* NinerLvlUp.xcdatamodel */,
+			);
+			currentVersion = 4611AAF51D822796008DAE0F /* NinerLvlUp.xcdatamodel */;
+			path = NinerLvlUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4611AAE71D822795008DAE0F /* Project object */;
+}
